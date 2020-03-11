@@ -48,6 +48,6 @@ def create_route(prev, start, goal):
     while current_node != start: #traversing in backward direction i.e. from goal to start
         current_node = prev[current_node]
         route.append(current_node)
-    route.reverse() #reversing the route to meke it from start to goal
+    route.reverse() #reversing the route to make it from start to goal
     return route
     return
